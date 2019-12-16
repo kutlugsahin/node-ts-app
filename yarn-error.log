@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ksahin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\app\ksahin\product\12.1.0\client_1;C:\app\ksahin\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\ksahin\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\ksahin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\ksahin\AppData\Local\Programs\Fiddler;C:\Users\ksahin\.dotnet\tools;C:\Users\ksahin\AppData\Roaming\npm;C:\Users\ksahin\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\ksahin\Desktop\node-ts-app\package.json: Unexpected token } in JSON at position 343
+      at JSON.parse (<anonymous>)
+      at C:\Users\ksahin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\ksahin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\ksahin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "node-ts-app",
+    "version": "1.0.0",
+    "description": "boilerplate for node typescript app",
+    "main": "index.js",
+    "author": "kutlu sahin",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+      "build": "tsc"
+    },
+    "devDependencies": {
+      "typescript": "3.7.3",
+      "nodemon": "2.0.2",
+      "concurrently": "5.0.1",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

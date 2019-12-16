@@ -1,0 +1,34 @@
+{
+  "name": "node-ts-app",
+  "version": "1.0.0",
+  "description": "boilerplate for node typescript app",
+  "main": "index.js",
+  "author": "kutlu sahin",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build:dev": "tsc --sourceMap --watch",
+    "run:watch": "nodemon ./dist/index.js",
+    "dev": "concurrently yarn:build:dev yarn:run:watch",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "eslint": "eslint --fix ./src/**/*.ts"
+  },
+  "dependencies": {
+    "@hapi/hapi": "18.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "concurrently": "5.0.1",
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "2.0.2",
+    "typescript": "3.7.3",
+    "@types/hapi__hapi": "18.2.6"
+  }
+}
